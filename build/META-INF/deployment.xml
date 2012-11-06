@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><jbossesb-deployment>
+  <depends>jboss.esb:deployment=soap.esb</depends>
+  <depends>jboss.esb:deployment=jbrules.esb</depends>
+  <depends>jboss.esb:service=SoapUIClientService</depends>
+  <depends>org.hornetq:module=JMS,type=Queue,name="quickstart_webservice_consumer1_esb"</depends>
+  <depends>org.hornetq:module=JMS,type=Queue,name="quickstart_webservice_consumer1_esb_reply"</depends>
+  <depends>org.hornetq:module=JMS,type=Queue,name="quickstart_webservice_consumer1_Request_gw"</depends>
+  <depends>org.hornetq:module=JMS,type=Queue,name="orderreqQ"</depends>
+  <depends>org.hornetq:module=JMS,type=Queue,name="orderreqQ_reply"</depends>
+  <depends>org.hornetq:module=JMS,type=Queue,name="orderreqQ_aware"</depends>
+</jbossesb-deployment>

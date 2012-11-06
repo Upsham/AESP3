@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:good="http://aes/Supplier">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <good:getBrands>
+         <message>Goodbye!!</message>
+      </good:getBrands>
+   </soapenv:Body>
+</soapenv:Envelope>
